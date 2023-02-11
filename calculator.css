@@ -2,11 +2,14 @@ body, html {
     background: #ECEDEF;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
   }
    
   .container {
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
@@ -85,4 +88,8 @@ body, html {
     background: #000000 !important;
     color: #ffffff !important;
     
+  }
+  h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
   }
